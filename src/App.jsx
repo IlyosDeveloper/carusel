@@ -10,14 +10,14 @@ function App() {
     infinite: false,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToScroll: 3,
           infinite: true,
           dots: true,
         },
@@ -26,7 +26,7 @@ function App() {
         breakpoint: 1000,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 2,
           initialSlide: 3,
         },
       },
@@ -34,7 +34,7 @@ function App() {
         breakpoint: 780,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
         },
       },
       {
