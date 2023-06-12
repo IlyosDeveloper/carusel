@@ -1,0 +1,56 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+}
+
+.carusel{
+  padding: 5rem;
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+.box{
+height: 300px;
+}
+.box img{
+  border-radius: 10px;
+}
+.hover{
+  transition: all 0.5s;
+}
+.hover:hover{
+  transform: scale(1.05);
+}
+.slick-slide div{
+  margin: 0.5rem;
+}
+.slick-prev:before {
+  content: '‹' !important;
+  font-size: 120px !important;
+  line-height: 0 !important;
+}
+.slick-next:before{
+  content: '›' !important;
+  font-size: 120px !important;
+  line-height: 0 !important;
+}
+h3{
+  padding: 3px;
+  border: 1px solid chartreuse;
+  border-radius: 5px;
+  color: chartreuse;
+  display: inline-block;
+}
